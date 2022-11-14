@@ -6,4 +6,11 @@ Chronic Kidney Disease (CKD) is a major medical problem and can be cured if trea
 
 ![image](https://user-images.githubusercontent.com/80167752/192278788-83096ae7-b295-4e0a-a868-d2cc56cf48b9.png)
 
+### Team Members:
+
+#### 👉Lead : Sahana R(420419205011)
+#### 👉Member 1 : Kanimozhi D  (420419205006)
+#### 👉Member 2 : Keerthana V  (420419205007)
+#### 👉Member 3 : Tamilarasi S (420419205017)
+#### 👉Member 4 : Bhavani G    (420419205301)
 
