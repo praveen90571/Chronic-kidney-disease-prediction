@@ -6,10 +6,11 @@ Chronic Kidney Disease (CKD) is a major medical problem and can be cured if trea
 
 ![image](https://user-images.githubusercontent.com/80167752/192278788-83096ae7-b295-4e0a-a868-d2cc56cf48b9.png)
 
+# Team ID: PNT2022TMID00708
 # Team Members:
 
 ## 👉Lead : PraveenKumar K   (211419104198)
-## 👉Member 1 : Sundareswar N(211419104274)
+## 👉Member 1 : Sundareswar N (211419104274)
 ## 👉Member 2 : Sarath S     (211419104238)
 ## 👉Member 3 : Ramakrishna  (211419104204)
 
