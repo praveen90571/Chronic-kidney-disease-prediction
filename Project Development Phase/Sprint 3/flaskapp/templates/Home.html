@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kidney Disease Predictor</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  <style>
+    html, body{ height:100%; margin:0; }
+header{ height:50px;}
+footer{ height:75px; background:black; }
+
+
+body{ 
+  display:flex; 
+  flex-direction:column; 
+}
+
+footer{
+  padding:10px;
+  margin-top:auto;
+  margin-bottom: auto; 
+}
+#wrapper{
+  border: 1px solid black;
+}
+.twoColumn{
+   width: 21%;
+   float:left;
+   border: 1px solid black;
+}
+.twoRow{
+  width: 20;
+  float:right;
+  border: 1px solid black;
+}
+  </style>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" style="background-color: black !important;">
+        <a style="color: white" ><h1 style="text-align:center;" >CHRONIC KIDNEY DISEASE PREDICTION </h1></a>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+               <a href="http://127.0.0.1:5500/Home.html" class="nav-link"><h3>Home</h3></a>
+             </li>
+             <li class="nav-item active">
+                <a class="nav-link" href="/index"><h3>Prediction</h3></a>
+              </li>
+           </ul> 
+         </div>
+  </nav>
+       <br>
+       <br>
+       <br>
+       
+  <div>
+        <h1 class="jumbotron-heading"><b>INTRODUCTION:-</b></h1>
+        <p class="lead" style="font-size: 25px;">Chronic Kidney Disease (CKD) is considered as an important threat for the society with respect to the health in the present era. Chronic kidney disease can be detected with regular laboratory tests, and some treatments are present which can prevent development, slow disease progression, reduce complications of decreased Glomerular Filtration Rate(GFR) and risk of cardiovascular disease, and improve survival and quality of life.he disease is called “chronic” because the damage to your kidneys happens slowly over a long period of time. This damage can cause wastes to build up in your body. CKD can also cause other health problems. </p>
+  </div>
+  <div id="wrapper">
+    <div class="twoColumn">
+    <img src="https://www.kidney.org/sites/default/files/adobestock_117146587.jpeg" width="300" height="200">
+    </div>
+    <div >
+      <h3><b>Chronic Kidney Disease Prediction</b></h3>
+      <p style="font-size: 20px;"> This is a machine learning project that is trained on a collected data of people who are infected by these disease and some other people.
+        It includes a lot of data about the individual and I used that feature to make an optimal model that will predict if someone is suffering from this disease or not. Predictions have been made on patients' kidney data to determine whether there are any clear indications of chronic kidney disease.</p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div class="twoRow">
+    <img src="https://qph.fs.quoracdn.net/main-qimg-ae77cd4a5b2ea509eb701ff03ffdee62" width="300" height="200">
+    </div>
+    <div >
+      <h3><b>STAGES OF CKD?</b></h3>
+      <p style="font-size: 20px;">CKD is divided into 5 stages:-<br>
+        •CKD stage 1is eGFR greater than 90 mls/min, which is normal but there are some signs of kidney damage on other tests.<br>
+        •CKD stage 2is eGFR 60-90 This is mildly decreased with some sign of kidney damage on other tests.<br>
+        •CKD stage 3ais eGFR 45-59 ml/min, a mild to moderate reduction in kidney function.<br>
+        •CKD stage 3bis eGFR 30-44 ml/min, a moderate to severe reduction in kidney function.<br>
+        •CKD stage 4is eGFR 15-29 ml/min, a severe reduction in kidney function. You may need additional medications to support loss of certain functions of the kidneys.<br>
+        •CKD stage 5is e GFR less than 15 ml/min, established kidney failure. Very likely to experience symptoms of kidney failure, when dialysis or a kidney transplant may be needed.<br>
+      </p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div class="twoRow">
+    <img src="https://www.verywellhealth.com/thmb/fQoHxOXgZcEUP1vFTLIpKdehPVY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/kidney-disease-causes-5b2a74c38023b900377a00d3.png" width="250" height="210">
+    </div>
+    <div >
+      <h3><b>What causes Chronic Kidney Disease?</b></h3>
+      <p style="font-size: 20px;"> The two most common causes of CKD are diabetes and high blood pressure.<br> 
+        •Diabetes means that your blood sugar is too high, which can damage your kidneys.<br> 
+        •High blood pressure means that the force of blood in your blood vessels is too strong, which can damage your blood vessels lead to CKD.
+        <br>
+        •Glomerulonephritis,Polycystic kidney disease,Lupus nephritis,Kidney cancer
+      </p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div class="twoColumn">
+    <img src="https://www.kidney.org/sites/default/files/adobestock_117146587.jpeg" width="300" height="200">
+    </div>
+    <div >
+      <h3><b>Data Exploration and visualization</b></h3>
+      <p style="font-size: 20px;"> •CKD Prediction.ipynb: Jupyter notebook with a step-by-step analysis of kidney data to predict chronic kidney disease.<br>
+        •Kidney_disease_train.csv: messages created by thepublic in the native language, converted into english.<br>
+        •Kidney_disease_test.csv: categories into which messages fall; water, medical, etc.<br>
+        •Kidney_failure.jpg: a drawing of a funtioning kidney and a failed kidney.</p>
+    </div>
+  </div> 
+  <div id="wrapper">
+    <div class="twoRow">
+    <img src="https://www.kidney.org/sites/default/files/adobestock_117146587.jpeg" width="300" height="200">
+    </div>
+    <div >
+      <h3><b>Data Preprocessing</b></h3>
+      <p style="font-size: 20px;"> As for the current dataset, we employed to create synthetic data on minority class, Non-CKD, using a k-NN classifier with k = 5. The instances in the Non CKD class are oversampled such that the number of instances in both classes is balanced. After data balancing, we present a statistical description of the numeric features, namely, minimum (Min), maximum (Max), mean and standard deviation.</p>
+    </div>
+  </div> 
+  <div id="wrapper">
+    <div class="twoColumn">
+    <img src="https://www.kidney.org/sites/default/files/adobestock_117146587.jpeg" width="300" height="200">
+    </div>
+    <div >
+      <h3><b>Results</b></h3>
+      <p style="font-size: 20px;"> In this investigation starting with the default values has worked out best in creating classification models to predict chronic kidney disease. Four out of six models reached 100% accuracy. We can see that Decision Tree and Random Forest classfiers have the highest accuracy score.
+        Between these two, the Random Forest classifier is a better choice as it has the ability to limit overfitting when compared to the Decision Tree classifier.</p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div class="twoRow">
+    <img src="https://www.kidney.org/sites/default/files/adobestock_117146587.jpeg" width="300" height="200">
+    </div>
+    <div >
+      <h3><b>Conclusion</b></h3>
+      <p style="font-size: 20px;">  The Chronic kidney disease feature most correlated to this prediction is serum creatinine, which makes sense as healthy kidneys are known to filter creatinine and other waste products from our blood.There was not much open data found for kidney disease, but if it was found in abundance then the chosen model may change due to considerations of performance time, and more parameters would be tested to ensure the performance was optimal.
+      </p>
+    </div>
+  </div>          
+<main>
+	<div class="container-fluid" style="margin-bottom: 0px;">
+    </div>
+  </main>
+  <footer>
+    <center>
+      <ul style="list-style-type:none;">
+      <li style="display: inline;"><a href="https://github.com/IBM-EPBL/IBM-Project-4553-1658734414" style="color: white;" target="blank"><span class="fa fa-github">  GitHub</span></a></li>
+      <li><p style="color: white;">Made with care<span style="color:rgb(4, 157, 252);">&hearts;</span> by PNT2022TMID00708</p></li>
+    </ul>
+  </center>
+  </footer>
+</body>
+</html>
