@@ -3,4 +3,4 @@
 ![Capture](https://user-images.githubusercontent.com/80167752/201833099-81198672-754c-4b47-8d95-425c4effbfa3.PNG)
 
 <h1>SPRINT 3<h1>
-<p>In this sprint we have developed flask,html and integrated them.</p> 
+<p>In this sprint we have developed flask,html and integrated them with the model.</p> 
