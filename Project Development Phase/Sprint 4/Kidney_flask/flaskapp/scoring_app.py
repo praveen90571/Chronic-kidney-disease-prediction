@@ -60,16 +60,6 @@ def login():
     pred=predictions['predictions'][0]['values'][0][0]
     print(pred)
     
-    
-    #if (pred == 1):
-        #output = "Oops,you have chronic Kidney Disease"
-        #print("Oops,you have chronic Kidney Disease")
-    #else: 
-        #output = "Great! you dont have chronic kidney disease"
-        #print("Great! you dont have chronic kidney disease")
-    
-
-
     return render_template("result.html", y = pred)
 
 
